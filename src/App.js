@@ -1,4 +1,5 @@
-import logo from './Oxford-University-rectangle-logo.png';
+import logo from './2256_ox_brand_blue_pos.png';
+import csadLogo from './CSADLogo.jpg';
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import Container from '@material-ui/core/Container';
@@ -10,7 +11,7 @@ import {LeidenViewer} from '@isicily/epidoc-viewer-core'
 
 import InterpretedToggle from './components/InterpretedToggle'
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   root: {
     background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
     border: 0,
@@ -25,8 +26,18 @@ const useStyles = makeStyles({
     maxHeight: '40px', 
     minWidth: '100px', 
     minHeight: '40px'
+  },
+  title: {
+   // padding: theme.spacing(3, 2),
+   // height: 100,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center"
+  },
+  titleBox: {
+    paddingTop:'2em'
   }
-});
+}));
 
 
 function App() {
@@ -51,11 +62,21 @@ function App() {
 
   return (
     <Container maxWidth={false} className="App">
-       <Box m={2}><img src={logo} alt="logo" height={100}/></Box>
-        <Typography variant="h4" component="h1" gutterBottom>
-        CSAD EpiDoc Viewer
-        </Typography>
-
+      <Grid container spacing={3} className={classes.titleBox} >
+              <Grid item xs={4} >
+            <Box m={2}><img src={logo} alt="logo" height={120}/></Box>
+              </Grid>
+              <Grid item xs={4} >
+              <Box m={2} className={classes.title} height={120}>
+                <Typography variant="h4" component="h1"  >
+                CSAD EpiDoc Viewer
+                </Typography>
+              </Box>
+              </Grid>
+              <Grid item xs={4} >
+              <Box m={2}><img src={csadLogo} alt="logo" height={120}/></Box>
+                </Grid>
+      </Grid>
       <Grid container spacing={3}>
         <Grid item xs={6} >
           <Paper>
