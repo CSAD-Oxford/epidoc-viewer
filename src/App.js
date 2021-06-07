@@ -64,17 +64,18 @@ function App() {
     <Container maxWidth={false} className="App">
       <Grid container spacing={3} className={classes.titleBox} >
               <Grid item xs={4} >
-            <Box m={2}><img src={logo} alt="logo" height={120}/></Box>
+            <Box m={2}><a href="https://www.ox.ac.uk"><img src={logo} alt="logo" height={120}/></a></Box>
               </Grid>
               <Grid item xs={4} >
               <Box m={2} className={classes.title} height={120}>
                 <Typography variant="h4" component="h1"  >
                 CSAD EpiDoc Viewer
                 </Typography>
+                <div><Typography><a href="https://github.com/jchartrand/epidoc-viewer">(https://github.com/jchartrand/epidoc-viewer)</a></Typography></div>
               </Box>
               </Grid>
               <Grid item xs={4} >
-              <Box m={2}><img src={csadLogo} alt="logo" height={120}/></Box>
+              <Box m={2}><a href="https://www.csad.ox.ac.uk"><img src={csadLogo} alt="logo" height={120}/></a></Box>
                 </Grid>
       </Grid>
       <Grid container spacing={3}>
@@ -111,7 +112,11 @@ function App() {
           </Paper>
         </Grid>
       </Grid>
-
+   
+                  <Box m={2} variant="body2" justifyContent="center" style={{paddingLeft:'3em', paddingRight:'3em'}}>
+                  This project has received funding from the John Fell Fund of the University of Oxford, and from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 885040, “Crossreads”).
+                  </Box>
+             
     </Container>
   );
 }
