@@ -1,4 +1,4 @@
-![Oxford logo](src/Oxford-University-rectangle-logo.png?raw=true)
+![Oxford logo](src/2256_ox_brand_blue_pos.png?raw=true)
 
 ![CSAD logo](src/CSADLogo.jpg?raw=true)
 
