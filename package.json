@@ -2,7 +2,7 @@
   "name": "epidoc-viewer",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://jchartrand.github.io/epidoc-viewer",
+  "homepage": "https://csad-oxford.github.io/epidoc-viewer",
   "dependencies": {
     "@isicily/epidoc-viewer-core": "^1.0.4",
     "@material-ui/core": "^4.11.2",
