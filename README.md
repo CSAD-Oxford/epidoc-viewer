@@ -1,5 +1,5 @@
 
-<img align="left "src="src/CSADLogo.jpg?raw=true" alt="alt text" width="200" >
+<img align="left" src="src/CSADLogo.jpg?raw=true" alt="alt text" width="200" >
 
 <img align="right" src="src/2256_ox_brand_blue_pos.png?raw=true" alt="alt text" width="200" >
 
