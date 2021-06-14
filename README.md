@@ -1,7 +1,9 @@
-![Oxford logo](https://github.com/ISicily/epidoc-viewer/blob/master/src/Oxford-University-rectangle-logo.png?raw=true)
+![Oxford logo](src/Oxford-University-rectangle-logo.png?raw=true)
 
-![CSAD logo](https://github.com/ISicily/epidoc-viewer/blob/master/src/CSADLogo.jpg?raw=true)
+![CSAD logo](src/CSADLogo.jpg?raw=true)
 
+This project has received funding from the John Fell Fund of the University of Oxford, and from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 885040, “Crossreads”).
+            
 # CSAD EpiDoc Viewer
 
 Transforms EpiDoc into a conventional set of editorial mark-up, based upon the Leiden conventions in epigraphic studies.
