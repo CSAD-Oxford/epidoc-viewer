@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import { Paper, TextField, Box, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import { LeidenViewer } from '@isicily/epidoc-viewer-core'
+import { LeidenViewer } from '@isicily/epidoc-viewer-react'
 
 import InterpretedToggle from './components/InterpretedToggle'
 
