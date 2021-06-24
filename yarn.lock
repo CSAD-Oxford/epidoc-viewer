@@ -1201,17 +1201,17 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@isicily/epidoc-viewer-core@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@isicily/epidoc-viewer-core/-/epidoc-viewer-core-1.0.5.tgz#c3c1fefbea780254d89ccfb6897322b0c1ccb1a7"
-  integrity sha512-+e4XJ8SvL6ntlRtCb4wEHb+Z8uV4ZwMb2Yr/g7vr1B2qW6GbG7ABb6N1+tZb7sJMYSiY2cHJY0161lMprOBx0Q==
+"@isicily/epidoc-viewer-core@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@isicily/epidoc-viewer-core/-/epidoc-viewer-core-1.0.7.tgz#993a2dc956a7891b3123e7a4839fdc5392455f1a"
+  integrity sha512-luYsi4pnqCPHpJIHi2zcWEcB6/UocpJiXsPnbICMFASgxUqDoMZ/luQpInlIDk4KHTAS7QSqBSpkMurJX2/5zw==
 
-"@isicily/epidoc-viewer-react@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@isicily/epidoc-viewer-react/-/epidoc-viewer-react-1.0.0.tgz#f0b3c4da5893e8cdca8b2f2edfcfc2dd5655d711"
-  integrity sha512-0eetmvy0ZVauwI2ROGqNU7tjDDz4J/oQ984Sgsd76zcwxC1viD8THD+hAGkXArq3xLqKINCAr+OI+LmoKrkNWw==
+"@isicily/epidoc-viewer-react@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@isicily/epidoc-viewer-react/-/epidoc-viewer-react-1.0.1.tgz#71017ec225e580fa78157900880de321cccb7379"
+  integrity sha512-z/r52TWRYC0+QybBcxcJ8fDr14OisQv/KIwIzsWauRWAzNRgwi/UwmiUOWyOmmDwfOVpTwOFiK3ak6b2Qo8Ebw==
   dependencies:
-    "@isicily/epidoc-viewer-core" "^1.0.5"
+    "@isicily/epidoc-viewer-core" "^1.0.7"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
